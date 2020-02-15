@@ -2,10 +2,10 @@
 from selenium import webdriver
 
 import os,time
-chromedriver = ".\chromedriver.exe" #这里写本地的chromedriver 的所在路径
-os.environ["webdriver.Chrome.driver"] = chromedriver #调用chrome浏览器
+chromedriver = ".\chromedriver.exe" 
+os.environ["webdriver.Chrome.driver"] = chromedriver 
 driver = webdriver.Chrome(chromedriver)
-driver.get("http://bsdt.swun.edu.cn/SPCP/Sys/Web/UserLogin.aspx") #该处为具体网址
+driver.get("http://bsdt.swun.edu.cn/SPCP/Sys/Web/UserLogin.aspx") 
 driver.refresh() #刷新页面
 driver.maximize_window() #浏览器最大化
 
