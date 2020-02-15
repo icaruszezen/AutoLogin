@@ -1,5 +1,7 @@
 # AutoLogin
 自动登录西南民大的疫情采集平台并提交数据的脚本  
+详细说明 https://lovelive.net.cn/2020/02/15/autologin/
+
 需要安装python环境，并安装selenium库  
 执行命令 pip install selenium  
 
