@@ -1,8 +1,8 @@
 from selenium import webdriver
 
 import os,time
-chromedriver = ".\chromedriver.exe" #这里写本地的chromedriver 的所在路径
-os.environ["webdriver.Chrome.driver"] = chromedriver #调用chrome浏览器
+chromedriver = ".\chromedriver.exe" 
+os.environ["webdriver.Chrome.driver"] = chromedriver 
 driver = webdriver.Chrome(chromedriver)
 driver.get("http://bsdt.swun.edu.cn/SPCP/Sys/Web/UserLogin.aspx") #该处为具体网址
 driver.refresh() #刷新页面
@@ -20,10 +20,7 @@ driver.find_element_by_id("Submit").click()
 time.sleep(0.1) #等待网页加载
 
 driver.find_element_by_class_name("layui-layer-btn0").click() #进入基本信息采集平台
-#driver.find_element_by_class_name("layui-layer-btn1").click() #进入温度采集平台
 
 time.sleep(0.1)
-
-#driver.find_element_by_id("Temper").send_keys("36.5")  #输入温度
 
 driver.find_element_by_class_name("save_form").click()
