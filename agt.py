@@ -1,3 +1,4 @@
+#by zezen lovelive.net.cn
 from selenium import webdriver
 import random
 import os,time
