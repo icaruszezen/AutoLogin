@@ -12,7 +12,7 @@ http://chromedriver.storage.googleapis.com/index.html
 
 使用脚本前请将代码中的学号和密码改为自己的
 
-使用cmd或powershell切换到脚本的目录 输入指令python ./agt.py即可自动登录
+使用cmd或powershell切换到脚本的目录 输入 python ./agt.py 运行提交温度脚本 输入 python ./agi.py 运行提交个人信息脚本 
 
 
   
