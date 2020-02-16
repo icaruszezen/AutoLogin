@@ -28,3 +28,4 @@ time.sleep(0.1)
 driver.find_element_by_id("Temper").send_keys("36.5")  #输入温度
 
 driver.find_element_by_class_name("save_form").click()
+
