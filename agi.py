@@ -9,8 +9,8 @@ driver.refresh() #刷新页面
 driver.maximize_window() #浏览器最大化
 
 
-driver.find_element_by_id("StudentId").send_keys("201831003052")  #替换为自己的学号
-driver.find_element_by_id("Name").send_keys("210012")       #替换为自己的密码
+driver.find_element_by_id("StudentId").send_keys("test")  #替换为自己的学号
+driver.find_element_by_id("Name").send_keys("test")       #替换为自己的密码
 code = driver.find_element_by_id("code-box").text
 driver.find_element_by_id("codeInput").send_keys(code)
 
