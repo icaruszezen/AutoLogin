@@ -1,4 +1,5 @@
 # AutoLogin
+
 自动登录西南民大的疫情采集平台并提交数据的脚本  
 详细说明 https://lovelive.net.cn/2020/02/15/autologin/
 
@@ -13,4 +14,12 @@ http://chromedriver.storage.googleapis.com/index.html
 
 使用cmd或powershell切换到脚本的目录 输入指令python ./agt.py即可自动登录
 
-目前仅支持自动登录提交温度，可自行修改提交个人信息版本或等待我后续更新
+
+  
+# 版本更新说明  
+
+v1.1.0 添加自动提交个人信息脚本  
+  
+v1.0.1 优化部分代码  
+  
+v1.0.0 添加自动提交个人温度脚本  
