@@ -20,7 +20,7 @@ driver.find_element_by_id("Submit").click()
 
 time.sleep(0.1) #等待网页加载
 
-#driver.find_element_by_class_name("layui-layer-btn0").click() #进入基本信息采集平台(自动提交需要自己完善代码)
+#driver.find_element_by_class_name("layui-layer-btn0").click() #进入基本信息采集平台
 driver.find_element_by_class_name("layui-layer-btn1").click() #进入温度采集平台
 
 time.sleep(0.1)
