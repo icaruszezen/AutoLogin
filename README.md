@@ -14,9 +14,11 @@ http://chromedriver.storage.googleapis.com/index.html
 
 使用cmd或powershell切换到脚本的目录 输入 python ./agt.py 运行提交温度脚本 输入 python ./agi.py 运行提交个人信息脚本 
 
-当你在系统时间16：00-23：00登录温度平台的时候，会自动截图保存
+当你登录温度平台的时候，会自动截图保存
   
 # 版本更新说明  
+  
+v1.3.0 适配更新后的平台
   
 v1.2.0 添加自动截图功能，保存在当前目录下，温度在36.5-36.9之间随机生成
   
