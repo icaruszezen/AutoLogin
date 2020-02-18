@@ -1,4 +1,5 @@
-﻿from selenium import webdriver
+#by zezen lovelive.net.cn
+from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import random
 import os,time
