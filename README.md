@@ -1,6 +1,6 @@
 ## AutoLogin
 # v2.0.0版本重要说明
-# 需自行注册百度AI平台获取token才能使用 详见 https://ai.baidu.com/forum/topic/show/867951
+# 需自行注册百度AI平台获取token才能使用 详见 https://ai.baidu.com/forum/topic/show/867951 获取token后替换agt.py的第45行
 
 自动登录西南民大的疫情采集平台并提交数据的脚本  
 详细说明 https://lovelive.net.cn/2020/02/15/autologin/
@@ -19,7 +19,7 @@ http://chromedriver.storage.googleapis.com/index.html
 当你登录温度平台的时候，会自动截图保存
   
 ## 版本更新说明   
-v2.0.0 更新登录适应新验证码方式
+v2.0.0 更新登录适应新验证码方式（只更新了agt.py
   
 v1.3.0 适配更新后的平台
   
